@@ -22,17 +22,17 @@ function App() {
     <div className="App">
     <Router>
       <Routes>
-        <Route exact path='/' element={<Home
+        <Route  path='/' element={<Home
           addPlayer={addPlayer}
           correctPlayer={correctPlayer}
           games={games}
         />}/>
-        <Route exact path='/Game' element={<Game
+        <Route  path='/Game' element={<Game
           nowPlay={nowPlay}
           addGame={addGame}
           correctScore={correctScore}
         />}/>
-        <Route exact path='/Endpage' element={ <Endpage
+        <Route  path='/Endpage' element={ <Endpage
           nowPlay={nowPlay}
           score={score}
         />}/>
