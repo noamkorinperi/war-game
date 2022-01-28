@@ -1,0 +1,18 @@
+.card::before{content:attr(data-rank)}
+.Spades::after{content:"\2660"}
+.Hearts::after{content:"\2665";color:red}
+.Diamond::after{content:"\2666";color:red}
+.Clubs::after{content:"\2663"}
+
+.card-contianer {
+    border: 2px solid gray;
+    background-color: lightpink;
+    width: 100px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.cards {
+    padding-top: 60px;
+    font-size: 32px;
+}

@@ -1,0 +1,10 @@
+.tabl  {
+    border: 1px solid black ;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout:fixed;
+    
+    }
+

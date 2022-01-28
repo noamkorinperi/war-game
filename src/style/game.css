@@ -1,0 +1,11 @@
+.buttens button{
+    text-align: center;
+    background-color: rgb(107, 143, 243);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 20px;
+    width: 50px;
+    border: black solid;
+    border-radius: 4px;
+
+}
